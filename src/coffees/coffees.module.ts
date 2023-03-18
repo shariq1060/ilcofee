@@ -14,5 +14,6 @@ import { Coffee, CoffeeSchema } from './entities/coffee.entity';
   ],
   providers: [CoffeesService],
   controllers: [coffeesController],
+  exports: [CoffeesService],
 })
 export class CoffeesModule {}
